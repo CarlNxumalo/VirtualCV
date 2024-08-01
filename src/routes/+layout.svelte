@@ -7,7 +7,7 @@
 <div class="relative px-8" style="padding-top: 4rem">
 	<Navbar class="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 start-0 border-b">
 		<NavBrand href="/">
-		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Portfolio</span>
+		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">CBN Portfolio</span>
 		</NavBrand>
 		<NavHamburger />
 		<NavUl>

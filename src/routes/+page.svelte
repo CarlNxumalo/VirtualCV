@@ -1,8 +1,8 @@
 <script>
   import { Section, News, HeroHeader, HeroBody, ContentWithImage,Cta } from 'flowbite-svelte-blocks';
-  import { ArrowRightOutline, VideoCameraSolid } from 'flowbite-svelte-icons';
+  import { ArrowRightOutline, DatabaseSolid, CodeBranchSolid, CloudArrowUpSolid,ComputerSpeakerSolid, BrainSolid } from 'flowbite-svelte-icons';
   import { Button } from 'flowbite-svelte';
-  import { Li, List, P, Card} from 'flowbite-svelte';
+  import { Li, List, P, Heading} from 'flowbite-svelte';
   import {  Contact } from 'flowbite-svelte-blocks';
   import { Label, Input, Textarea } from 'flowbite-svelte';
   import {  FeatureDefault, FeatureItem } from 'flowbite-svelte-blocks';
@@ -41,33 +41,33 @@
   </HeroHeader>
   <FeatureDefault>
     <FeatureItem>
-      <svelte:fragment slot="icon"><ChartPieSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
+      <svelte:fragment slot="icon"><DatabaseSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
       <svelte:fragment slot="h3">Database Design</svelte:fragment>
       <svelte:fragment slot="paragraph">I have extensive experience in designing efficient and scalable databases for various applications. My expertise includes utilizing relational databases to ensure robust data management.</svelte:fragment>
     </FeatureItem>
     <FeatureItem>
-      <svelte:fragment slot="icon"><LandmarkSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
+      <svelte:fragment slot="icon"><CodeBranchSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
       <svelte:fragment slot="h3">Object Orieantated Programming</svelte:fragment>
       <svelte:fragment slot="paragraph">I create modular and maintainable code, ensuring complex systems are broken down into reusable and scalable components.</svelte:fragment>
     </FeatureItem>
     <FeatureItem>
-      <svelte:fragment slot="icon"><BriefcaseSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
+      <svelte:fragment slot="icon"><CloudArrowUpSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
       <svelte:fragment slot="h3">Cloud</svelte:fragment>
       
       <svelte:fragment slot="paragraph">I utilize cloud platforms such as Vercel, Azure, and Supabase to deploy and manage applications efficiently. My experience includes leveraging these services for scalable hosting, database management, and seamless integration.</svelte:fragment>
     </FeatureItem>
     <FeatureItem>
-      <svelte:fragment slot="icon"><DollarOutline class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
+      <svelte:fragment slot="icon"><ChartPieSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
       <svelte:fragment slot="h3">Data Analystics</svelte:fragment>
       <svelte:fragment slot="paragraph">I transform your data into easy-to-understand insights, enabling better business decisions. My expertise includes using advanced analytics techniques to interpret complex data and provide actionable recommendations.</svelte:fragment>
     </FeatureItem>
     <FeatureItem>
-      <svelte:fragment slot="icon"><RocketSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
+      <svelte:fragment slot="icon"><ComputerSpeakerSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
       <svelte:fragment slot="h3">Web & Desktop development</svelte:fragment>
       <svelte:fragment slot="paragraph">I develop user-centric web and desktop applications that are visually appealing and functionally robust, ensuring seamless experiences across platforms with modern frameworks and technologies.</svelte:fragment>
     </FeatureItem>
     <FeatureItem>
-      <svelte:fragment slot="icon"><CogOutline class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
+      <svelte:fragment slot="icon"><BrainSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
       <svelte:fragment slot="h3">Machine Learning & AI</svelte:fragment>
       <svelte:fragment slot="paragraph">I have utilized open-source machine learning models in real-world applications. Using tools from Hugging Face and Python libraries like scikit-learn</svelte:fragment>
     </FeatureItem>
@@ -193,12 +193,13 @@
   
 <Footer footerType="socialmedia">
   <div class="mx-auto max-w-screen-xl text-center">
+    <Heading tag="h2" customSize="text-4xl font-extrabold ">Contact Me</Heading>
     <p class="my-6 text-gray-500 dark:text-gray-400">"Don’t hesitate to reach out to me through any of the platforms available. I’m always here to help!"</p>
     <FooterLinkGroup ulClass="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
       <FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="https://github.com/CarlNxumalo">Github</FooterLink>
       <FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="https://www.linkedin.com/in/carl-nxumalo-bb34a1282/">LinkedIn</FooterLink>
       <FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="mailto:carl.ybongani@gmail.com">carl.ybongani@gmail.com</FooterLink>
-      <FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="tel:+27716367633">Phone: 071 636 7633</FooterLink>
+      <FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="tel:+27716367633">071 636 7633</FooterLink>
     </FooterLinkGroup>
     <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">2024/08/02</span>
   </div>
