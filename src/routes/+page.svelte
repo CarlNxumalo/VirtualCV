@@ -118,33 +118,37 @@
     <FeatureDefault>
       <FeatureItem>
         <svelte:fragment slot="icon"><ChartPieSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
-        <svelte:fragment slot="h3">Marketing</svelte:fragment>
-        <svelte:fragment slot="paragraph">Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.</svelte:fragment>
+        <svelte:fragment slot="h3">Database Design</svelte:fragment>
+        <svelte:fragment slot="paragraph">I have extensive experience in designing efficient and scalable databases for various applications. My expertise includes utilizing relational databases to ensure robust data management.</svelte:fragment>
+        <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
+          <Li>Utilized Microsoft SQL, Postgre SQL, and Oracle Sql databases.</Li>
+          <Li>Creating UML diagrams with DrawIO</Li>
+      </List>
       </FeatureItem>
       <FeatureItem>
         <svelte:fragment slot="icon"><LandmarkSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
-        <svelte:fragment slot="h3">Legal</svelte:fragment>
-        <svelte:fragment slot="paragraph">Protect your organization, devices and stay compliant with our structured workflows and custom permissions made for you.</svelte:fragment>
+        <svelte:fragment slot="h3">Object Orieantated Programming</svelte:fragment>
+        <svelte:fragment slot="paragraph">I create modular and maintainable code, ensuring complex systems are broken down into reusable and scalable components.</svelte:fragment>
       </FeatureItem>
       <FeatureItem>
         <svelte:fragment slot="icon"><BriefcaseSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
-        <svelte:fragment slot="h3">Business Automation</svelte:fragment>
-        <svelte:fragment slot="paragraph">Auto-assign tasks, send Slack messages, and much more. Now power up with hundreds of new templates to help you get started.</svelte:fragment>
+        <svelte:fragment slot="h3">Cloud</svelte:fragment>
+        <svelte:fragment slot="paragraph">I utilize cloud platforms such as Vercel, Azure, and Supabase to deploy and manage applications efficiently. My experience includes leveraging these services for scalable hosting, database management, and seamless integration.</svelte:fragment>
       </FeatureItem>
       <FeatureItem>
         <svelte:fragment slot="icon"><DollarOutline class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
-        <svelte:fragment slot="h3">Finance</svelte:fragment>
-        <svelte:fragment slot="paragraph">Audit-proof software built for critical financial operations like month-end close and quarterly budgeting.</svelte:fragment>
+        <svelte:fragment slot="h3">Data Analystics</svelte:fragment>
+        <svelte:fragment slot="paragraph">I transform your data into easy-to-understand insights, enabling better business decisions. My expertise includes using advanced analytics techniques to interpret complex data and provide actionable recommendations.</svelte:fragment>
       </FeatureItem>
       <FeatureItem>
         <svelte:fragment slot="icon"><RocketSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
-        <svelte:fragment slot="h3">Enterprise Design</svelte:fragment>
+        <svelte:fragment slot="h3">Web & Desktop development</svelte:fragment>
         <svelte:fragment slot="paragraph">Craft beautiful, delightful experiences for both marketing and product with real cross-company collaboration.</svelte:fragment>
       </FeatureItem>
       <FeatureItem>
         <svelte:fragment slot="icon"><CogOutline class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
-        <svelte:fragment slot="h3">Operations</svelte:fragment>
-        <svelte:fragment slot="paragraph">Keep your company’s lights on with customizable, iterative, and structured workflows built for all efficient teams and individual.</svelte:fragment>
+        <svelte:fragment slot="h3">Machine Learning & AI</svelte:fragment>
+        <svelte:fragment slot="paragraph">I have utilized open-source machine learning models in real-world applications. Using tools from Hugging Face and Python libraries like scikit-learn</svelte:fragment>
       </FeatureItem>
     </FeatureDefault>
   </Section>
