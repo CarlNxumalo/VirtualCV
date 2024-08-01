@@ -2,7 +2,7 @@
   import { Section, News, HeroHeader, HeroBody, ContentWithImage,Cta } from 'flowbite-svelte-blocks';
   import { ArrowRightOutline, VideoCameraSolid } from 'flowbite-svelte-icons';
   import { Button } from 'flowbite-svelte';
-  import { Li, List, P} from 'flowbite-svelte';
+  import { Li, List, P, Card} from 'flowbite-svelte';
   import {  Contact } from 'flowbite-svelte-blocks';
   import { Label, Input, Textarea } from 'flowbite-svelte';
   import {  FeatureDefault, FeatureItem } from 'flowbite-svelte-blocks';
@@ -22,9 +22,9 @@
     
   </HeroHeader>
   <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-    <a href="/">
+    <a href="/Carl Nxumalo CV.pdf">
       <Button size="lg" color="red">
-        Contact Me <ArrowRightOutline size="md" class="ml-2 -mr-1" />
+        Download My CV <ArrowRightOutline size="md" class="ml-2 -mr-1" />
       </Button>
     </a>
     
@@ -64,7 +64,7 @@
     <FeatureItem>
       <svelte:fragment slot="icon"><RocketSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
       <svelte:fragment slot="h3">Web & Desktop development</svelte:fragment>
-      <svelte:fragment slot="paragraph">Craft beautiful, delightful experiences for both marketing and product with real cross-company collaboration.</svelte:fragment>
+      <svelte:fragment slot="paragraph">I develop user-centric web and desktop applications that are visually appealing and functionally robust, ensuring seamless experiences across platforms with modern frameworks and technologies.</svelte:fragment>
     </FeatureItem>
     <FeatureItem>
       <svelte:fragment slot="icon"><CogOutline class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
@@ -99,6 +99,8 @@
     </List>
   </Cta>
 </Section>
+
+
 <div id="MyProjects"></div>
 <Section name="ctawithimg" id="MyProjects">
     <Cta ctatype="image">
@@ -184,46 +186,20 @@
           <Li>Technical: Enthusiastic about programming and technology.</Li>
           <Li>Goals: Aim to combine social skills and technical expertise to contribute meaningfully to the tech community.</Li>
       </List>
-
-      <svelte:fragment slot="image">
-      <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1" />
-      <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
-      </svelte:fragment>
   </ContentWithImage>
 </Section>
 
 <div id="MyContact"></div>
-  <Section name="contact" id="MyContact">
-    <Contact>
-      <svelte:fragment slot="h2">Contact Me</svelte:fragment>
-      <svelte:fragment slot="paragraph">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</svelte:fragment>
-      <form class="space-y-8">
-        <div>
-          <Label for="email" class="block mb-2">Your email</Label>
-          <Input id="email" name="email" placeholder="carl.bongani@gmail.com" required />
-        </div>
-        <div>
-          <Label for="subject" class="block mb-2">Subject</Label>
-          <Input id="subject" name="subject" placeholder="Subject" required />
-        </div>
-        <div>
-          <Textarea id="subject" name="subject" placeholder="Leave a comment..." label="Your message" />
-        </div>
-        <Button>Send message</Button>
-      </form>
-    </Contact>
-  </Section>
-
-
   
-  <Footer footerType="socialmedia">
-    <div class="mx-auto max-w-screen-xl text-center">
-      <FooterBrand href="https://flowbite.com" src="/images/logo.svg" alt="Flowbite Logo" name="Flowbite" aClass="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white" />
-      <p class="my-6 text-gray-500 dark:text-gray-400">Open-source library of over 400+ web components and interactive elements built for better web.</p>
-      <FooterLinkGroup ulClass="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
-        <FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="https://github.com/CarlNxumalo">Github</FooterLink>
-        <FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="https://www.linkedin.com/in/carl-nxumalo-bb34a1282/">LinkedIn</FooterLink>
-      </FooterLinkGroup>
-      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">2024</span>
-    </div>
-  </Footer>
+<Footer footerType="socialmedia">
+  <div class="mx-auto max-w-screen-xl text-center">
+    <p class="my-6 text-gray-500 dark:text-gray-400">"Don’t hesitate to reach out to me through any of the platforms available. I’m always here to help!"</p>
+    <FooterLinkGroup ulClass="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+      <FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="https://github.com/CarlNxumalo">Github</FooterLink>
+      <FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="https://www.linkedin.com/in/carl-nxumalo-bb34a1282/">LinkedIn</FooterLink>
+      <FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="mailto:carl.ybongani@gmail.com">carl.ybongani@gmail.com</FooterLink>
+      <FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="tel:+27716367633">Phone: 071 636 7633</FooterLink>
+    </FooterLinkGroup>
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">2024/08/02</span>
+  </div>
+</Footer>
