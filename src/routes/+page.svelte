@@ -84,7 +84,7 @@
   <Section name="ctawithimg">
     <Cta ctatype="image">
       <svelte:fragment slot="img">
-        <img class="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard" />
+        <img class="w-full dark:hidden" src="/FNBChallenge.png" alt="dashboard" />
         <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard" />
       </svelte:fragment>
       <svelte:fragment slot="h2">FNB Data Quest Challenge</svelte:fragment>
@@ -120,10 +120,6 @@
         <svelte:fragment slot="icon"><ChartPieSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
         <svelte:fragment slot="h3">Database Design</svelte:fragment>
         <svelte:fragment slot="paragraph">I have extensive experience in designing efficient and scalable databases for various applications. My expertise includes utilizing relational databases to ensure robust data management.</svelte:fragment>
-        <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
-          <Li>Utilized Microsoft SQL, Postgre SQL, and Oracle Sql databases.</Li>
-          <Li>Creating UML diagrams with DrawIO</Li>
-      </List>
       </FeatureItem>
       <FeatureItem>
         <svelte:fragment slot="icon"><LandmarkSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
@@ -133,6 +129,7 @@
       <FeatureItem>
         <svelte:fragment slot="icon"><BriefcaseSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
         <svelte:fragment slot="h3">Cloud</svelte:fragment>
+        
         <svelte:fragment slot="paragraph">I utilize cloud platforms such as Vercel, Azure, and Supabase to deploy and manage applications efficiently. My experience includes leveraging these services for scalable hosting, database management, and seamless integration.</svelte:fragment>
       </FeatureItem>
       <FeatureItem>
@@ -152,6 +149,21 @@
       </FeatureItem>
     </FeatureDefault>
   </Section>
+  
+<Section name="ctawithimg">
+  <Cta ctatype="image">
+    <svelte:fragment slot="img">
+      <img class="w-full dark:hidden" src="/LightModeStack.png" alt="dashboard" />
+      <img class="w-full hidden dark:block" src="/LightModeStack.png" alt="dashboard" />
+    </svelte:fragment>
+    <svelte:fragment slot="h2">Let's create more tools and ideas that brings us together.</svelte:fragment>
+    <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+    <a href="/" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+      Get started
+      <ArrowRightOutline size="md" class="ml-2 -mr-1" />
+    </a>
+  </Cta>
+</Section>
 
 <Section name="cta">
     <Cta>
