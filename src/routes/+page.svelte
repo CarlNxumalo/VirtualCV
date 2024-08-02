@@ -47,7 +47,7 @@
     </FeatureItem>
     <FeatureItem>
       <svelte:fragment slot="icon"><CodeBranchSolid class="text-primary-600 dark:text-primary-300" /></svelte:fragment>
-      <svelte:fragment slot="h3">Object Orieantated Programming</svelte:fragment>
+      <svelte:fragment slot="h3">Object-Oriented Programming</svelte:fragment>
       <svelte:fragment slot="paragraph">I create modular and maintainable code, ensuring complex systems are broken down into reusable and scalable components.</svelte:fragment>
     </FeatureItem>
     <FeatureItem>
